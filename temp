@@ -1,1 +1,7 @@
-test
+uses 
+dbt-core 
+dbt-duckdb 
+duckdb 
+pandas
+
+Also make sure your profiles.yml is in ~/.dbt and correctly referenced
