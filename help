@@ -1,0 +1,6 @@
+Uses these package:
+dbt-core
+duckdb
+dbt-duckdb
+
+Also make sure the profiles.yml is palced inside ~/.dbt
