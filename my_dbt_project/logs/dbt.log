@@ -1,0 +1,423 @@
+
+
+============================== 20:59:08.355132 | b6b97016-351e-4e3d-b86b-1a9dc26bf58c ==============================
+[0m20:59:08.355132 [info ] [MainThread]: Running with dbt=1.9.1
+[0m20:59:08.509513 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m20:59:08.559364 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:59:09.279274 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m20:59:09.280415 [info ] [MainThread]: 
+[0m20:59:09.280664 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:59:09.280864 [info ] [MainThread]: 
+[0m20:59:09.362142 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m20:59:09.398150 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.03s]
+[0m20:59:09.406011 [info ] [MainThread]: 
+[0m20:59:09.406241 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m20:59:09.421752 [info ] [MainThread]: 
+[0m20:59:09.422010 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:59:09.422221 [info ] [MainThread]: 
+[0m20:59:09.422459 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m20:59:09.422656 [info ] [MainThread]: 
+[0m20:59:09.422872 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 20:59:53.234684 | 5f6585ab-268d-4c02-ac90-81297a0c5273 ==============================
+[0m20:59:53.234684 [info ] [MainThread]: Running with dbt=1.9.1
+[0m20:59:53.384800 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m20:59:53.556844 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m20:59:53.557960 [info ] [MainThread]: 
+[0m20:59:53.558212 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:59:53.558415 [info ] [MainThread]: 
+[0m20:59:53.638109 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m20:59:53.674331 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.03s]
+[0m20:59:53.681943 [info ] [MainThread]: 
+[0m20:59:53.682173 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m20:59:53.696843 [info ] [MainThread]: 
+[0m20:59:53.697105 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:59:53.697321 [info ] [MainThread]: 
+[0m20:59:53.697562 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m20:59:53.697762 [info ] [MainThread]: 
+[0m20:59:53.697979 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:02:42.014456 | f5a522a0-cddc-4c39-9244-b967aa71502f ==============================
+[0m21:02:42.014456 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:02:42.163303 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:02:42.539936 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:02:42.541050 [info ] [MainThread]: 
+[0m21:02:42.541306 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:02:42.541506 [info ] [MainThread]: 
+[0m21:02:42.619068 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:02:42.668426 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.05s]
+[0m21:02:42.676875 [info ] [MainThread]: 
+[0m21:02:42.677111 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m21:02:42.692457 [info ] [MainThread]: 
+[0m21:02:42.692710 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:02:42.692923 [info ] [MainThread]: 
+[0m21:02:42.693165 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Catalog Error: Table with name spotify_tracks does not exist!
+  Did you mean "pg_constraint"?
+  LINE 16:     from spotify_tracks 
+                    ^
+[0m21:02:42.693374 [info ] [MainThread]: 
+[0m21:02:42.693591 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:04:07.046220 | 3f33115a-2208-4f74-afcf-d46dcde75700 ==============================
+[0m21:04:07.046220 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:04:07.195527 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:04:07.573992 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:04:07.575105 [info ] [MainThread]: 
+[0m21:04:07.575356 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:04:07.575559 [info ] [MainThread]: 
+[0m21:04:07.652917 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:04:07.686696 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.03s]
+[0m21:04:07.696905 [info ] [MainThread]: 
+[0m21:04:07.697139 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m21:04:07.712742 [info ] [MainThread]: 
+[0m21:04:07.713000 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:04:07.713209 [info ] [MainThread]: 
+[0m21:04:07.713446 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:04:07.713642 [info ] [MainThread]: 
+[0m21:04:07.713856 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:06:37.579484 | 811bc1ce-ea07-4b33-a692-cd6d91d4f4bb ==============================
+[0m21:06:37.579484 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:06:37.728114 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:06:38.102681 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:06:38.103823 [info ] [MainThread]: 
+[0m21:06:38.104078 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:06:38.104281 [info ] [MainThread]: 
+[0m21:06:38.182341 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:06:38.218960 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.04s]
+[0m21:06:38.227526 [info ] [MainThread]: 
+[0m21:06:38.227770 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m21:06:38.243017 [info ] [MainThread]: 
+[0m21:06:38.243272 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:06:38.243482 [info ] [MainThread]: 
+[0m21:06:38.243728 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:06:38.243930 [info ] [MainThread]: 
+[0m21:06:38.244144 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:07:04.908366 | 355e668d-2e33-4459-9083-17f003538e8d ==============================
+[0m21:07:04.908366 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:07:05.056269 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:07:05.230297 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:07:05.231425 [info ] [MainThread]: 
+[0m21:07:05.231685 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:07:05.231887 [info ] [MainThread]: 
+[0m21:07:05.312302 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:07:05.349128 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.04s]
+[0m21:07:05.356885 [info ] [MainThread]: 
+[0m21:07:05.357110 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m21:07:05.371721 [info ] [MainThread]: 
+[0m21:07:05.371978 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:07:05.372192 [info ] [MainThread]: 
+[0m21:07:05.372426 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:07:05.372620 [info ] [MainThread]: 
+[0m21:07:05.372833 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:07:15.660036 | a97d5be8-deab-4b2c-bd7a-d986e732fab8 ==============================
+[0m21:07:15.660036 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:07:15.808784 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:07:16.181505 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:07:16.182623 [info ] [MainThread]: 
+[0m21:07:16.182875 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:07:16.183074 [info ] [MainThread]: 
+[0m21:07:16.261014 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:07:16.311116 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.05s]
+[0m21:07:16.322191 [info ] [MainThread]: 
+[0m21:07:16.322428 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m21:07:16.338170 [info ] [MainThread]: 
+[0m21:07:16.338428 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:07:16.338637 [info ] [MainThread]: 
+[0m21:07:16.338876 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Catalog Error: Table with name spotify_tracks does not exist!
+  Did you mean "pg_constraint"?
+  LINE 16: from spotify_tracks
+                ^
+[0m21:07:16.339074 [info ] [MainThread]: 
+[0m21:07:16.339286 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:09:04.810037 | f54bb7ad-91d5-47df-9e13-f9b90dfcbe0a ==============================
+[0m21:09:04.810037 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:09:04.958073 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:09:05.332341 [info ] [MainThread]: Found 2 models, 4 data tests, 422 macros
+[0m21:09:05.333467 [info ] [MainThread]: 
+[0m21:09:05.333723 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:09:05.333925 [info ] [MainThread]: 
+[0m21:09:05.410987 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:09:05.447437 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.04s]
+[0m21:09:05.458890 [info ] [MainThread]: 
+[0m21:09:05.459175 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.12 seconds (0.12s).
+[0m21:09:05.480424 [info ] [MainThread]: 
+[0m21:09:05.480734 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:09:05.480990 [info ] [MainThread]: 
+[0m21:09:05.481312 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:09:05.481618 [info ] [MainThread]: 
+[0m21:09:05.481944 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:11:28.085179 | 27d54fc6-7308-43de-b652-1f1cdaff880b ==============================
+[0m21:11:28.085179 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:11:28.236324 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:11:28.550544 [info ] [MainThread]: Found 2 models, 422 macros
+[0m21:11:28.551633 [info ] [MainThread]: 
+[0m21:11:28.551897 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:11:28.552099 [info ] [MainThread]: 
+[0m21:11:28.633008 [info ] [Thread-1 (]: 1 of 1 START sql table model main.my_first_dbt_model  [RUN]
+[0m21:11:28.670444 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.my_first_dbt_model  [[31mERROR[0m in 0.04s]
+[0m21:11:28.679594 [info ] [MainThread]: 
+[0m21:11:28.679840 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.13 seconds (0.13s).
+[0m21:11:28.693911 [info ] [MainThread]: 
+[0m21:11:28.694165 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:11:28.694371 [info ] [MainThread]: 
+[0m21:11:28.694603 [error] [MainThread]:   Runtime Error in model my_first_dbt_model (models/example/my_first_dbt_model.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:11:28.694794 [info ] [MainThread]: 
+[0m21:11:28.695005 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:43:07.194103 | 0858b37f-ce7c-468a-94a7-a8d92389b2c9 ==============================
+[0m21:43:07.194103 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:43:07.345234 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:43:07.434581 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m21:43:07.434926 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:43:07.943507 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.my_dbt_project.my_second_dbt_model' (models/example/my_second_dbt_model.sql) depends on a node named 'my_first_dbt_model' which was not found
+
+
+============================== 21:44:33.579425 | 93928e52-249a-460a-b23a-2c5736245cb9 ==============================
+[0m21:44:33.579425 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:44:33.734144 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:44:33.822868 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m21:44:33.823315 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:44:34.322783 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.my_dbt_project.my_second_dbt_model' (models/example/my_second_dbt_model.sql) depends on a node named 'my_first_dbt_model' which was not found
+
+
+============================== 21:45:07.104016 | 87bd6427-12c5-4b5f-a673-ab60218fbcc1 ==============================
+[0m21:45:07.104016 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:45:07.258043 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:45:07.351369 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m21:45:07.351782 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m21:45:07.981547 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:45:07.982593 [info ] [MainThread]: 
+[0m21:45:07.982831 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:45:07.983027 [info ] [MainThread]: 
+[0m21:45:08.065997 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:45:08.106572 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.stg_spotify_tracks  [[31mERROR[0m in 0.04s]
+[0m21:45:08.116271 [info ] [MainThread]: 
+[0m21:45:08.116537 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.13 seconds (0.13s).
+[0m21:45:08.133482 [info ] [MainThread]: 
+[0m21:45:08.133802 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:45:08.134026 [info ] [MainThread]: 
+[0m21:45:08.134273 [error] [MainThread]:   Runtime Error in model stg_spotify_tracks (models/stg_spotify_tracks.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:45:08.134474 [info ] [MainThread]: 
+[0m21:45:08.134693 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:45:51.308727 | 0b060a79-461f-432a-9367-0b259d12b48b ==============================
+[0m21:45:51.308727 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:45:51.466098 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:45:51.625132 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:45:51.626275 [info ] [MainThread]: 
+[0m21:45:51.626533 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:45:51.626732 [info ] [MainThread]: 
+[0m21:45:51.716786 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:45:51.758546 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.stg_spotify_tracks  [[31mERROR[0m in 0.04s]
+[0m21:45:51.767919 [info ] [MainThread]: 
+[0m21:45:51.768226 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m21:45:51.785055 [info ] [MainThread]: 
+[0m21:45:51.785341 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:45:51.785558 [info ] [MainThread]: 
+[0m21:45:51.785803 [error] [MainThread]:   Runtime Error in model stg_spotify_tracks (models/stg_spotify_tracks.sql)
+  Parser Error: syntax error at or near ")"
+[0m21:45:51.786005 [info ] [MainThread]: 
+[0m21:45:51.786225 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:47:32.651699 | cebc1143-b6e6-448d-977d-875743267454 ==============================
+[0m21:47:32.651699 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:47:32.801946 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:47:33.102848 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:47:33.103930 [info ] [MainThread]: 
+[0m21:47:33.104184 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:47:33.104382 [info ] [MainThread]: 
+[0m21:47:33.187296 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:47:33.245645 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.stg_spotify_tracks  [[31mERROR[0m in 0.06s]
+[0m21:47:33.254990 [info ] [MainThread]: 
+[0m21:47:33.255342 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.15 seconds (0.15s).
+[0m21:47:33.270868 [info ] [MainThread]: 
+[0m21:47:33.271229 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:47:33.271528 [info ] [MainThread]: 
+[0m21:47:33.271868 [error] [MainThread]:   Runtime Error in model stg_spotify_tracks (models/stg_spotify_tracks.sql)
+  Catalog Error: Table with name spotify_tracks does not exist!
+  Did you mean "pg_constraint"?
+  LINE 21: from spotify_tracks
+                ^
+[0m21:47:33.272078 [info ] [MainThread]: 
+[0m21:47:33.272298 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:48:13.070982 | e7cf9a14-f47e-47ea-8984-be35dcdd70c4 ==============================
+[0m21:48:13.070982 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:48:13.222293 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:48:13.371078 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:48:13.372157 [info ] [MainThread]: 
+[0m21:48:13.372409 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:48:13.372628 [info ] [MainThread]: 
+[0m21:48:13.457156 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:48:13.511007 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.stg_spotify_tracks  [[31mERROR[0m in 0.05s]
+[0m21:48:13.520410 [info ] [MainThread]: 
+[0m21:48:13.520648 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.15 seconds (0.15s).
+[0m21:48:13.535997 [info ] [MainThread]: 
+[0m21:48:13.536261 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:48:13.536476 [info ] [MainThread]: 
+[0m21:48:13.536717 [error] [MainThread]:   Runtime Error in model stg_spotify_tracks (models/stg_spotify_tracks.sql)
+  Catalog Error: Table with name spotify_tracks does not exist!
+  Did you mean "pg_constraint"?
+  LINE 21: from spotify_tracks
+                ^
+[0m21:48:13.536915 [info ] [MainThread]: 
+[0m21:48:13.537129 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:50:25.470012 | 9f2a5ba5-db86-4803-b1fb-44892779f767 ==============================
+[0m21:50:25.470012 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:50:25.621223 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:50:25.924148 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:50:25.925213 [info ] [MainThread]: 
+[0m21:50:25.925467 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:50:25.925665 [info ] [MainThread]: 
+[0m21:50:26.003865 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:50:26.057809 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model main.stg_spotify_tracks  [[31mERROR[0m in 0.05s]
+[0m21:50:26.066013 [info ] [MainThread]: 
+[0m21:50:26.066245 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.14 seconds (0.14s).
+[0m21:50:26.080481 [info ] [MainThread]: 
+[0m21:50:26.080738 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m21:50:26.080964 [info ] [MainThread]: 
+[0m21:50:26.081206 [error] [MainThread]:   Runtime Error in model stg_spotify_tracks (models/stg_spotify_tracks.sql)
+  Catalog Error: Table with name spotify_tracks does not exist!
+  Did you mean "pg_constraint"?
+  LINE 21: from spotify_tracks
+                ^
+[0m21:50:26.081405 [info ] [MainThread]: 
+[0m21:50:26.081621 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+
+
+============================== 21:52:14.750944 | 9840c481-7f73-4041-9fbc-8ab3a410ce17 ==============================
+[0m21:52:14.750944 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:52:14.902657 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:52:14.989565 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m21:52:15.610340 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:52:15.611423 [info ] [MainThread]: 
+[0m21:52:15.611670 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:52:15.611874 [info ] [MainThread]: 
+[0m21:52:15.693941 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:52:16.060320 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.stg_spotify_tracks  [[32mOK[0m in 0.36s]
+[0m21:52:16.071478 [info ] [MainThread]: 
+[0m21:52:16.071826 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.46 seconds (0.46s).
+[0m21:52:16.093101 [info ] [MainThread]: 
+[0m21:52:16.093494 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:52:16.093780 [info ] [MainThread]: 
+[0m21:52:16.094092 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+
+
+============================== 21:52:56.924979 | b8188903-7b0e-4a9c-9d6d-739f42211672 ==============================
+[0m21:52:56.924979 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:52:57.076167 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:52:57.226538 [info ] [MainThread]: Found 1 model, 422 macros
+[0m21:52:57.227634 [info ] [MainThread]: 
+[0m21:52:57.227898 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m21:52:57.228100 [info ] [MainThread]: 
+[0m21:52:57.312630 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m21:52:57.692284 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.stg_spotify_tracks  [[32mOK[0m in 0.38s]
+[0m21:52:57.704029 [info ] [MainThread]: 
+[0m21:52:57.704323 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.48 seconds (0.48s).
+[0m21:52:57.724906 [info ] [MainThread]: 
+[0m21:52:57.725321 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:52:57.725647 [info ] [MainThread]: 
+[0m21:52:57.725987 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+
+
+============================== 21:58:17.724372 | 4a70e174-348e-4645-8534-45993423900f ==============================
+[0m21:58:17.724372 [info ] [MainThread]: Running with dbt=1.9.1
+[0m21:58:17.874726 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m21:58:18.077261 [error] [MainThread]: Encountered an error:
+Compilation Error in model top_spotify_tracks (models/mart/top_spotify_tracks.sql)
+  The name argument to ref() must be a string, got <class 'dbt_common.clients.jinja.create_undefined.<locals>.Undefined'>
+
+
+============================== 22:00:59.376368 | 7a44d559-2d2a-4219-aacf-950a13892b75 ==============================
+[0m22:00:59.376368 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:00:59.527995 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m22:00:59.616161 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m22:01:00.078882 [error] [MainThread]: Encountered an error:
+Compilation Error in model top_spotify_tracks (models/mart/top_spotify_tracks.sql)
+  The name argument to ref() must be a string, got <class 'dbt_common.clients.jinja.create_undefined.<locals>.Undefined'>
+
+
+============================== 22:01:42.039717 | c5c43672-9005-4ca2-817e-b44bf8c178a6 ==============================
+[0m22:01:42.039717 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:01:42.190993 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m22:01:42.280296 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m22:01:42.904078 [info ] [MainThread]: Found 2 models, 422 macros
+[0m22:01:42.905167 [info ] [MainThread]: 
+[0m22:01:42.905420 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:01:42.905661 [info ] [MainThread]: 
+[0m22:01:42.988898 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m22:01:43.356733 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.stg_spotify_tracks  [[32mOK[0m in 0.37s]
+[0m22:01:43.365210 [info ] [MainThread]: 
+[0m22:01:43.365446 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.46 seconds (0.46s).
+[0m22:01:43.380652 [info ] [MainThread]: 
+[0m22:01:43.380921 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:01:43.381128 [info ] [MainThread]: 
+[0m22:01:43.381345 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+
+
+============================== 22:09:25.278702 | 148bd6d0-3282-4eee-be4c-942b2cff837d ==============================
+[0m22:09:25.278702 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:09:25.431059 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m22:09:25.519512 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m22:09:26.144663 [info ] [MainThread]: Found 2 models, 422 macros
+[0m22:09:26.145746 [info ] [MainThread]: 
+[0m22:09:26.145990 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:09:26.146193 [info ] [MainThread]: 
+[0m22:09:26.228948 [info ] [Thread-1 (]: 1 of 1 START sql table model main.stg_spotify_tracks  [RUN]
+[0m22:09:26.616901 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.stg_spotify_tracks  [[32mOK[0m in 0.39s]
+[0m22:09:26.626241 [info ] [MainThread]: 
+[0m22:09:26.626493 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.48 seconds (0.48s).
+[0m22:09:26.641364 [info ] [MainThread]: 
+[0m22:09:26.641635 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:09:26.641906 [info ] [MainThread]: 
+[0m22:09:26.642131 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+
+
+============================== 22:15:59.510120 | 2a7a8441-dc83-48cb-b9e3-7f0ff0ea1541 ==============================
+[0m22:15:59.510120 [info ] [MainThread]: Running with dbt=1.9.1
+[0m22:15:59.663304 [info ] [MainThread]: Registered adapter: duckdb=1.9.1
+[0m22:15:59.942254 [info ] [MainThread]: Found 2 models, 422 macros
+[0m22:15:59.943329 [info ] [MainThread]: 
+[0m22:15:59.943581 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:15:59.943797 [info ] [MainThread]: 
+[0m22:16:00.031930 [info ] [Thread-1 (]: 1 of 1 START sql table model main.top_spotify_tracks  [RUN]
+[0m22:16:00.201432 [info ] [Thread-1 (]: 1 of 1 OK created sql table model main.top_spotify_tracks  [[32mOK[0m in 0.17s]
+[0m22:16:00.214010 [info ] [MainThread]: 
+[0m22:16:00.214311 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.27 seconds (0.27s).
+[0m22:16:00.235311 [info ] [MainThread]: 
+[0m22:16:00.235654 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:16:00.235944 [info ] [MainThread]: 
+[0m22:16:00.236287 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1

@@ -1,0 +1,1 @@
+{"_invocation_id": "2a7a8441-dc83-48cb-b9e3-7f0ff0ea1541", "linked": {"0": {"name": "model.my_dbt_project.stg_spotify_tracks", "type": "model", "succ": [1]}, "1": {"name": "model.my_dbt_project.top_spotify_tracks", "type": "model"}}}

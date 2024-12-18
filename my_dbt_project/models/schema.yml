@@ -1,0 +1,6 @@
+
+version: 2
+
+models:
+  - name: stg_spotify_tracks
+    description: "Data on songs from Spotify"
