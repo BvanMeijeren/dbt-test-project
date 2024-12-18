@@ -1,0 +1,13 @@
+my_dbt_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/bastiaan/Documents/Git/dbt-test-project/my_database.db
+      threads: 1
+
+    prod:
+      type: duckdb
+      path: /home/bastiaan/Documents/Git/dbt-test-project/my_database.db
+      threads: 4
+
+  target: dev
